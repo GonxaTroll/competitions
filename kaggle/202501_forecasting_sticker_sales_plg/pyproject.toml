@@ -1,0 +1,20 @@
+[project]
+name = "202501-forecasting-sticker-sales-plg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autogluon>=1.5.0",
+    "dotenv>=0.9.9",
+    "ipywidgets>=8.1.8",
+    "kagglehub>=1.0.0",
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
