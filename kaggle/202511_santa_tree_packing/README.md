@@ -39,3 +39,20 @@ Each individual in the GA is a vector of rotation angles. BLF is called as a dec
 | `hga_submission.py` | Main HGA loop with incremental solving (1 → 200 trees) |
 | `mix_simulated_annealing.ipynb` | SA mutation for HGA (not used) |
 | `visualization.py` | Manim-based animation of the final packing |
+
+
+### 3. References
+
+- Original paper from which my solution is based:  
+Wu, Q., Yang, W., Zhang, Q. et al. Two-dimensional nesting system based on hybrid genetic algorithm. Wuhan Univ. J. Nat. Sci. 14, 60–64 (2009). https://doi.org/10.1007/s11859-009-0113-0
+- [Problem definition and discussion.](https://stackoverflow.com/questions/2675123/nesting-maximum-amount-of-shapes-on-a-surface)
+- [PhD's thesis on nesting problems and algorithms](https://www.uv.es/marsyan/docs/thesis.pdf)
+- [Improved No-Fit Polygon algorithm](https://www.mdpi.com/2227-7390/10/16/2941)
+
+
+
+
+
+
+ 
+
